@@ -1,8 +1,7 @@
 ### `说明：本程序使用selenium自动化浏览器操作，以此实现看自动看智慧树网课的需要，因此无需担心被检测`
 ### `使用所需：python, lxml, selenium, chromedriver, chrome浏览器`
 ###`使用说明：` `首先需要安装Chrome或Firefox浏览器，推荐chrome`
-###`然后安装python及lxml,selenium库`
-###`在浏览器信息中查看你的Chrome版本,下载对应的Chromedriver版本，然后将下载的文件与此程序放至同一目录下即可`
+###`然后安装python及lxml,selenium库, 在浏览器信息中查看你的Chrome版本,下载对应的Chromedriver版本，然后将下载的文件与此程序放至同一目录下即可`
 ####_http://chromedriver.storage.googleapis.com/index.html_
 ###`修改代码中username, password 为你的手机号与密码`
 ## **`最重要的一步，输入你需要自动播放的课程的url`**
