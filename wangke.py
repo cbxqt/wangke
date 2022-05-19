@@ -9,7 +9,7 @@ import time
 
 class Auto_play:
     # http://chromedriver.storage.googleapis.com/index.html
-    _path_of_chromedriver = 'E:\py\diy\demo\wangke\chromedriver'
+    _path_of_chromedriver = './chromedriver.exe'
     _browser = None
     _url_homepage = 'https://passport.zhihuishu.com/login'
     _header_data = {
@@ -27,7 +27,7 @@ class Auto_play:
         self.username = username
         self.password = password
 
-        self._browser = webdriver.Chrome(options=self.chrome_options, executable_path='./chromedriver.exe')
+        self._browser = webdriver.Chrome(options=self.chrome_options, executable_path=self._path_of_chromedriver)
         self._browser.get(self._url_homepage)
         self.wait = WebDriverWait(self._browser, 10)
 
